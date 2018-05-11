@@ -51,7 +51,7 @@ $l = array('lexa', 'sana', 'peta', 'gena');
 
 $x = 8;
 
-switch ($x){
+switch ($x) {
     case 1:
         echo "сегодня понедельник";
         break;
@@ -82,14 +82,37 @@ echo "<br>";
 echo "<br>";
 
 echo "<pre>";
-$v = array('22','44','55');
-$mm[0] = 11;
-$mm[1] = "22";
-$mm[2] = "qq";
+$v = array('22', '44', '55', 'ee', '1ee');
+$h = array(
+    array('q', 'w', 'e', 'r'),
+    array('a', 's', 'd', 'f'),
+    array('z', 'x', 'c', 'v')
+);
+
 
 var_dump($v);
 echo "<br>";
-var_dump($mm);
+var_dump($h);
+echo "<br>";
+echo count($h)." , ". count($h[0]);
+echo "<br>";
+
+for ($i = 0; $i < count($v); $i++) {
+    echo $v[$i] . "<br>";
+}
+echo "<br>";
+echo "<br>";
+foreach ($v as $k => $z) {
+    echo $k . "=>" . $z . "<br>";
+}
+echo "<br>";
+for($i = 0; $i < count($h); $i++){
+    echo $h[$i]."<br>";
+    for($q = 0; $q < count($h[$q]); $q++){
+    echo $q;
+    }
+}
+
 
 
 echo "</pre>";
