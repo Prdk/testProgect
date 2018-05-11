@@ -80,7 +80,7 @@ switch ($x){
 echo "<br>";
 echo "<br>";
 echo "<br>";
-echo "eeeeeeeeeeeeeeee";
+echo "eeeeeeeeeeeeeeeeeeeee";
 
 $ww = 20;
 while($ww < 40){

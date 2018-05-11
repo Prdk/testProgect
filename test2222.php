@@ -23,11 +23,6 @@
                     <option>6</option>
                     <option>7</option>
                     <option>8</option>
-                    <option>8</option>
-                    <option>8</option>
-                    <option>8</option>
-                    <option>8</option>
-                    <option>8</option>
                 </select></p>
 
             <p><input type="submit" value="нажми меня" title="Отправить форму">
