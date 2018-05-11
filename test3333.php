@@ -80,10 +80,16 @@ switch ($x){
 echo "<br>";
 echo "<br>";
 echo "<br>";
-echo "eeeeeeeeeeeeeeeeeeeee";
 
-$ww = 20;
-while($ww < 40){
-    $ww++;
-    echo "ььььььь";
-}
+echo "<pre>";
+$v = array('22','44','55');
+$mm[0] = 11;
+$mm[1] = "22";
+$mm[2] = "qq";
+
+var_dump($v);
+echo "<br>";
+var_dump($mm);
+
+
+echo "</pre>";
