@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05.12.2017, 21:37:03
+    Author     : лёха
+*/
+#muform{
+    text-align: center;
+}
+
+label{
+    color: blue;
+    text-decoration: blink;
+}
+
+#name{
+    color: green;
+    margin-top: 20px;
+}
+
+#password{
+    color: green;
+    margin-top: 20px;
+}
+
+#submit{
+    border-radius: 30%;
+    background-color: red;
+    margin-top: 30px;
+    width: 120px;
+}
+
+#reset{
+    border-radius: 30%;
+    background-color: red;
+    margin-top: 30px;
+    width: 120px;
+}
+
+h1{
+    /*background-color: activecaption;*/
+    text-align: center;
+    color: blue;
+  }
+
+.header{
+    position: absolute;
+    width: 98%;
+    height: 12%;
+    bottom: auto;
+    background-color: chartreuse;
+    overflow: scroll;
+    
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.article{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+}
+
+.left_panel{
+    position: absolute;
+    vertical-align: auto;
+    width: 15%;
+    height: 40%;
+    top: 20%;
+    background-color:darkgoldenrod;
+    border-style:dotted;
+    
+    
+}
+
+.article2{
+    position: absolute;
+    width: 62%;
+    height: 40%;
+    top: 20%;
+    padding: 10%;
+    margin-left: 16%;
+    text-align: center;
+    background-color:cadetblue;
+}
+
+.footer{
+    position: absolute;
+    width: 98%;
+    height: 7%;
+    bottom:2%;
+    background-color: darkcyan;
+    text-align: center;
+    
+}
