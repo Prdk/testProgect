@@ -111,7 +111,7 @@ for($i = 0; $i < count($h); $i++){
     for($q = 0; $q < count($h[$q]); $q++){
     echo $q;
     }
-
+}
 
 
 echo "</pre>";
