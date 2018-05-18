@@ -82,35 +82,22 @@ echo "<br>";
 echo "<br>";
 
 echo "<pre>";
-$v = array('22', '44', '55', 'ee', '1ee');
-$h = array(
-    array('q', 'w', 'e', 'r'),
-    array('a', 's', 'd', 'f'),
-    array('z', 'x', 'c', 'v')
+
+$r = array(
+    "name" => array ('sana', 'lexa', 'mixa', 'gena'),
+    "surname" => array('prdk', 'lyk', 'podles', 'isaev'),
+    "age" => array(23, 34, 43, 42, 24)
 );
 
-
-var_dump($v);
-echo "<br>";
-var_dump($h);
-echo "<br>";
-echo count($h)." , ". count($h[0]);
-echo "<br>";
-
-for ($i = 0; $i < count($v); $i++) {
-    echo $v[$i] . "<br>";
-}
-echo "<br>";
-echo "<br>";
-foreach ($v as $k => $z) {
-    echo $k . "=>" . $z . "<br>";
-}
-echo "<br>";
-for($i = 0; $i < count($h); $i++){
-    echo $h[$i]."<br>";
-    for($q = 0; $q < count($h[$q]); $q++){
-    echo $q;
+var_dump($r); 
+echo "<br>" . "<br>";
+echo $r[0][1];
+echo "<br>" . "<br>";
+foreach($r as $k){
+    foreach($k as $v){
+        echo $v . "<br>";
     }
+    echo $k . "<br>";
 }
 
 
